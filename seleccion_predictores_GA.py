@@ -2062,6 +2062,10 @@ class Poblacion:
 #                                 EJEMPLOS                                     #
 ################################################################################
 
+################################################################################
+#                                 EJEMPLOS                                     #
+################################################################################
+
 # EJEMPLO REGRESIÓN 1
 # En la libreria sklearn.datasets.make_friedman1 puede encontrarse, el problema
 # de regresión propuesto por Friedman (1991) y Breiman (1996). Con la función
@@ -2116,7 +2120,7 @@ poblacion.optimizar(
     metrica            = "neg_mean_squared_error",
     n_generaciones     = 50,
     metodo_seleccion   = "ruleta",
-    metodo_cruce       = "punto_simple",
+    metodo_cruce       = "uniforme",
     elitismo           = 0.01,
     prob_mut           = 0.1,
     parada_temprana    = True,
